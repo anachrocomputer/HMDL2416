@@ -22,3 +22,5 @@ It accepts 7-bit ASCII codes on pins D0-D6.
 | GND  | Gnd         | 2, 4, 10     |
 | VCC  | +5V         | 3, 9, 18     |
 
+## Photo of LEDs in HMDL2416 ##
+![HMDL2416 LEDs](HMDL2416.jpg "HMDL2416 LEDs")
