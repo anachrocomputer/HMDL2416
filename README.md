@@ -12,8 +12,8 @@ It accepts 7-bit ASCII codes on pins D0-D6.
 | A0   | 8           | 8            |
 | A1   | 9           | 7            |
 | CS   | 10          | 1            |
-| D0   | 0           | 11           |
-| D1   | 1           | 12           |
+| D0   | 11          | 11           |
+| D1   | 12          | 12           |
 | D2   | 2           | 13           |
 | D3   | 3           | 14           |
 | D4   | 4           | 17           |
@@ -21,6 +21,8 @@ It accepts 7-bit ASCII codes on pins D0-D6.
 | D6   | 6           | 15           |
 | GND  | Gnd         | 2, 4, 10     |
 | VCC  | +5V         | 3, 9, 18     |
+
+Display connections avoid using Arduino pins 0 and 1 because they're the UART.
 
 ## Photo of LEDs in HMDL2416 ##
 ![HMDL2416 LEDs](HMDL2416.jpg "HMDL2416 LEDs")
