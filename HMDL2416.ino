@@ -10,7 +10,7 @@
 #define HMDL_D0 11  // Avoid using Arduino pins 0 and 1
 #define HMDL_D1 12  // because they're the UART
 #define HMDL_D2 2   // AVR PORTD bit 2
-#define HMDL_D3 4
+#define HMDL_D3 3
 #define HMDL_D4 4
 #define HMDL_D5 5
 #define HMDL_D6 6   // AVR PORTD bit 6
